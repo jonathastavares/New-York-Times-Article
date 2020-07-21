@@ -1,0 +1,59 @@
+@media (min-width: 800px) {
+  body {
+    background-color: whitesmoke;
+    margin: 0;
+  }
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  height: 42px;
+  margin-left: 0;
+  border-bottom: 1px #e2e2e2 solid;
+}
+
+.left-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8%;
+}
+
+.left-logos a {
+    color: black;
+    margin-right: 30px;
+}
+
+.main-logo {
+  margin-left: 116.594px;
+}
+
+.main-logo img {
+  padding-top: 10px;
+  width: 200px;
+  height: 25px;
+}
+
+.right-buttons {
+  display: flex;
+  justify-content: center;
+  margin-right: 8%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.right-buttons button {
+  cursor: pointer;
+  background-color: rgb(86, 123, 149);
+  color: white;
+  border-radius: 3px;
+  text-align: center;
+  padding: 10px 15px 8px 15px;
+  border: 0;
+  margin-left: 10px;
+  font-size: 10.5px;
+}
