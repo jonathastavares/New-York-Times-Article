@@ -1,9 +1,31 @@
 @media (min-width: 800px) {
   body {
-    background-color: whitesmoke;
+    background-color: white;
     margin: 0;
+    display: flex;
+    justify-content: center;
   }
 }
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+}
+
+div {
+  border: 1px black solid;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+/* Navbar Section */
 
 .navbar {
   position: fixed;
@@ -14,6 +36,8 @@
   height: 42px;
   margin-left: 0;
   border-bottom: 1px #e2e2e2 solid;
+  z-index: 1;
+  top: 0;
 }
 
 .left-logos {
@@ -56,4 +80,25 @@
   border: 0;
   margin-left: 10px;
   font-size: 10.5px;
+}
+
+/* End of Navbar Section */
+
+/* Main Page Section */
+
+.section-1 {
+  margin-top: 50px;
+}
+
+.section-1 span {
+  display: block;
+  text-align: left;
+}
+
+.image-container {
+}
+
+.image-container img {
+  width: 800px;
+  height: 440px;
 }
