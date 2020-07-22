@@ -2,16 +2,17 @@
   body {
     background-color: white;
     margin: 0;
-    display: flex;
-    justify-content: center;
+    height: 100%;
   }
 }
 
 .container {
-  width: 100%;
+  margin-top: 60px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 div {
@@ -85,18 +86,10 @@ h1 {
 /* Main Page Section */
 
 .section-1 {
-  margin-top: 50px;
-}
-
-.section-1 span {
-  display: block;
-  text-align: left;
-}
-
-.image-container {
+  width: 800px;
 }
 
 .image-container img {
   width: 800px;
-  height: 440px;
+  height: auto;
 }
