@@ -1,9 +1,11 @@
 @media (min-width: 800px) {
-  body {
-    background-color: white;
-    margin: 0;
-    height: 100%;
-  }
+  
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  height: 100%;
 }
 
 .container {
@@ -15,9 +17,7 @@
   align-items: center;
 }
 
-div {
-  border: 1px black solid;
-}
+
 
 h1 {
   font-size: 40px;
@@ -86,10 +86,41 @@ h1 {
 /* Main Page Section */
 
 .section-1 {
-  width: 800px;
+  width: 600px;
 }
 
 .image-container img {
-  width: 800px;
+  width: 600px;
   height: auto;
+}
+
+.section-2 {
+  width: 600px;
+  display:flex; 
+}
+
+.suscribe {
+  text-align: center;
+}
+
+.aside {
+  background-color: green;
+  width: 280px;
+  flex: 1;
+}
+
+.img-text div {
+  display: flex;
+}
+
+.img-text img {
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+}
+.img-text a {
+  float: right;
+  padding: 10px;
+  text-decoration: none;
+
 }
