@@ -229,12 +229,29 @@ h1 {
 
 .text-image-container {
   height: 100%;
-  width: 1000px;
+  width: 950px;
 }
 
-.text-image-container img {
-  width: 1000px;
+.grid-container {
+  background-image: url(../images/inflation-945.png);
+  background-size: 950px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 950px;
   height: auto;
+  grid-column-gap: 25px;
+}
+
+.grid-first-row {
+  margin-top: 150px;
+  width: 190px;
+  font-size: 15px;
+}
+
+.grid-second-row {
+  margin-top: 145px;
+  width: 190px
 }
 
 .video-container {
