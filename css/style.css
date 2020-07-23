@@ -91,9 +91,21 @@ h1 {
   align-items: center;
 }
 
+.image-container {
+  margin-bottom: 30px;
+}
+
 .image-container img {
   width: 1200px;
   height: auto;
+}
+
+.social-media-buttons {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  border: 0;
+  margin-right: 10px;
 }
 
 .image-container div p {
@@ -112,29 +124,79 @@ h1 {
   color: #333;
 }
 
+.subscribe-container-top-border {
+  border: 1px solid rgb(204, 204, 204);
+  width: 72px;
+  margin: 0 auto 18px;
+}
+
+.subscribe-container-bottom-border {
+  border: 1px solid rgb(204, 204, 204);
+  width: 72px;
+  margin: 18px auto 0;
+}
+
+.subscribe span {
+  text-align: center;
+}
+
+.subscribe span p {
+  font-size: 16px;
+  line-height: 5px;
+}
+
+.subscribe span p a {
+  text-decoration: none;
+  color: rgb(50, 104, 145);
+  font-size: 16px;
+  line-height: 5px;
+}
+
 .aside {
-  background-color: green;
-  width: 280px;
-  flex: 1;
+  position: absolute;
+  top: 2000px;
+  right: 17%;
+  width: 12%;
+}
+
+.aside h2 {
+  color: black;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid rgb(226, 226, 226);
 }
 
 .img-text div {
   display: flex;
 }
 
-.img-text img {
+.img-text div img {
   width: 70px;
   height: 70px;
   padding: 10px;
 }
-.img-text a {
-  float: right;
+.img-text div a {
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+  line-height: 17px;
   padding: 10px;
   text-decoration: none;
+  font-weight: 500;
+  padding-bottom: 0px;
+  border-bottom: none;
 }
 
 .text-box {
   width: 50%;
+}
+
+.text-box p a {
+  color: #326891;
 }
 
 .text-box p {
@@ -181,9 +243,25 @@ h1 {
   margin-bottom: 40px;
 }
 
+.video-container div {
+  max-width: 85%;
+}
+
+.video-container div p {
+  color: #666;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: left;
+}
+
 .telescope-image-container {
   height: 100%;
   width: 800px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .telescope-image-container img {
@@ -191,15 +269,31 @@ h1 {
   width: 800px;
 }
 
+.telescope-image-container div {
+  max-width: 90%;
+}
+
+.telescope-image-container div p {
+  color: #666;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: left;
+}
+
 .main-section-footer-text {
+  margin-bottom: 30px;
+}
+
+.main-section-footer-text p {
   color: rgb(102, 102, 102);
   font-size: 0.75rem;
   line-height: 1rem;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  
 }
 
-.main-section-footer-text a {
+.main-section-footer-text p a {
   color: rgb(102, 102, 102);
 }
 
