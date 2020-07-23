@@ -285,7 +285,6 @@ h1 {
   line-height: 15px;
   font-weight: 300;
   color: #000000;
-  
 }
 
 .grid-line-border-bottom {
@@ -375,3 +374,76 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
+
+.bottom-section {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.grid-box {
+  width: 70%;
+}
+
+.top-grid {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50% 50%;
+  margin-right: 10px;
+  grid-row-gap: 50px;
+  margin-bottom: 50px;
+}
+
+.top-grid div, .bottom-grid div {
+  width: 97%;
+}
+
+.top-grid div div img, .bottom-grid div div img {
+  width: 100%;
+  height: auto;
+}
+
+.top-grid div div figcaption, .bottom-grid div div figcaption {
+  text-align: right;
+  color: rgb(102, 102, 102);
+  font-size: 10px;
+}
+
+.bottom-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-right: 10px;
+}
+
+.most-popular {
+  display: block;
+  border-top: 1px black solid;
+  width: 29%;
+}
+
+.most-popular div {
+  border-top: 1px solid rgb(204, 204, 204);
+}
+
+.bottom-section-title {
+  margin-right: 3%;
+  border-top: 1px black solid;
+}
+ .grid-image-title {
+  font-size: 1.125rem;
+  margin-top: 8px;
+  margin-bottom: 5px;
+ }
+
+ .grid-image-date {
+  letter-spacing: 0.3px;
+  color: rgb(153, 153, 153);
+  font-size: 12px;
+  margin: 0;
+ }
+
+ .bottom-grid-division {
+   margin-right: 3%;
+   border-top: 1px black solid;
+ }
