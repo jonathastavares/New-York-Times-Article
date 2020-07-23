@@ -109,9 +109,6 @@ h1 {
 
 .suscribe {
   text-align: center;
-}
-
-.subscribe p {
   color: #333;
 }
 
@@ -141,7 +138,7 @@ h1 {
 }
 
 .text-box p {
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia,'times new roman',times,serif;
   font-size: 1.25rem;
   line-height: 1.875rem;
   display: block;
@@ -198,8 +195,27 @@ h1 {
   color: rgb(102, 102, 102);
   font-size: 0.75rem;
   line-height: 1rem;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  
 }
 
 .main-section-footer-text a {
   color: rgb(102, 102, 102);
+}
+
+.comment-button {
+  cursor: pointer;
+  background-color: rgb(86, 123, 149);
+  color: white;
+  border-radius: 3px;
+  text-align: center;
+  padding: 10px 55px 8px 55px;
+  border: 0;
+  margin-left: 5px;
+  font-size: 10.5px;
+}
+
+.icons-bttns {
+  display: flex;
+  justify-content: space-between;
 }
