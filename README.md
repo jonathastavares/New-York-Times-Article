@@ -4,7 +4,7 @@
 
 > This project is a responsive New York Times Article Page.
 
-![screenshot](./images/example.jpeg)
+![screenshot](./images/example.jpg)
 
 ## Built With
 
