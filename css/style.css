@@ -448,13 +448,13 @@ h1 {
  }
 
  .footer-section {
-  width: 1200px;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  margin-top: 60px;
-  border-top: 2px solid #e2e2e2;
-  padding-top: 10px;
+    width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    border-top: 2px solid #e2e2e2;
+    padding-top: 10px;
  }
 
  .footer-tittle {
@@ -464,11 +464,14 @@ h1 {
    height: 35px;
  }
 
- .footer-tittle p a {
-  color: rgb(86, 123, 149);
-  font-size: 11px;
+ .footer-tittle img {
+   margin-right: 60px;
  }
 
+ .footer-tittle a {
+    color: rgb(86, 123, 149);
+    font-size: 11px;
+ }
 
  .img-footer-tittle {
    width:160px;
@@ -480,32 +483,53 @@ h1 {
    grid-template-rows: 1fr;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
    grid-column-gap: 30px;
+   width: fit-content;
+   width: 1190px;
  }
  
  .links-grid div p a {
-  font-size: 14px;
-  text-decoration: none;
+    font-size: 14px;
+    text-decoration: none;  
+    color: rgb(0, 0, 0);
  }
 
- .links-grid div ul {
+ .column-grid {
+   list-style: none;
+   line-height: 8px;
+   padding-right: 0;
+   padding-left: 0;
+ }
+
+ .last-ul-column {
+   border-left: 2px solid #e2e2e2;
+   padding-left: 30px;
+   padding-right: 0;
    list-style: none;
    line-height: 8px;
  }
 
  .corporight {
    display: flex;
-   justify-content: space-between;
-   color: #666;
-   font-size: 12px;
-   font-family: nyt-franklin,helvetica,arial,sans-serif;
-   padding: 8px 0 0 0;
-   text-decoration: none;
-   cursor: pointer;
+   justify-content: space-between; 
+   margin-bottom: 80px;
+   border-top: 2px solid #e2e2e2;
+   margin-left: 50px;
+   margin-right: 50px;
+ }
+
+ .corporight a {
+    color: #666;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    padding: 8px 0;
+    font-size: 11px;
+    text-decoration: none;
+    cursor: pointer;
  }
 
  .footer-navbar {
    width: 100%;
    bottom: 0;
+   position: fixed;
  }
 
  .bottom-navbar {
@@ -525,7 +549,17 @@ h1 {
 .bottom-navbar-text {
   flex: 4;
 }
-
+.bottom-navbar-text p a {
+  font-size: 16px;
+  text-decoration: none;
+  color: whitesmoke;
+}
 .bottom-navbar-offer {
   flex: 2;
+}
+
+.bottom-navbar-offer p {
+  font-size: 16px;
+  text-decoration: none;
+  color: whitesmoke;
 }
