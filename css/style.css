@@ -1,12 +1,8 @@
-@media (min-width: 800px) {
-
-}
-
 body {
   background-color: white;
   margin: 0;
   height: 100%;
-  font-family: nyt-imperial, georgia, 'times new roman', times,serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 .container {
@@ -128,8 +124,8 @@ h1 {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-start: none;
+  margin-inline-end: none;
   color: #333;
 }
 
@@ -150,13 +146,11 @@ h1 {
   color: #666;
   font-size: 0.9375rem;
   line-height: 1.25rem;
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
+  margin: none;
+  padding: none;
+  border: none;
   text-align: left;
 }
-
-
 
 .data-icons {
   display: flex;
@@ -219,8 +213,8 @@ h1 {
   line-height: 17px;
   text-decoration: none;
   font-weight: 500;
-  padding-bottom: 0px;
-  border-bottom: 0px;
+  padding-bottom: none;
+  border-bottom: none;
   margin-left: 5px;
   align-self: center;
 }
@@ -242,7 +236,7 @@ h1 {
 .aside h2 {
   color: black;
   font-weight: 700;
-  margin-top: 0px;
+  margin-top: none;
   margin-bottom: 15px;
   padding-bottom: 12px;
   font-size: 14px;
@@ -280,7 +274,7 @@ h1 {
 }
 
 .text-image-tittle h3 {
-  font-size: 1.20rem;
+  font-size: 1.2rem;
   line-height: 10px;
   font-weight: 600;
   font-style: normal;
@@ -309,17 +303,7 @@ h1 {
   grid-column-gap: 22px;
 }
 
-.grid-first-row {
-  margin-top: 140px;
-  margin-left: 10px;
-  width: 210px;
-  font-size: 13px;
-  line-height: 15px;
-  font-weight: 300;
-  color: #000000;
-  font-family: nyt-franklin,arial,helvetica,sans-serif;
-}
-
+.grid-first-row,
 .grid-second-row {
   margin-top: 140px;
   margin-left: 10px;
@@ -327,8 +311,8 @@ h1 {
   font-size: 13px;
   line-height: 15px;
   font-weight: 300;
-  color: #000000;
-  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  color: #000;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
 
 .grid-line-border-bottom {
@@ -453,16 +437,19 @@ h1 {
   cursor: pointer;
 }
 
-.top-grid div, .bottom-grid div {
+.top-grid div,
+.bottom-grid div {
   width: 97%;
 }
 
-.top-grid div div img, .bottom-grid div div img {
+.top-grid div div img,
+.bottom-grid div div img {
   width: 100%;
   height: auto;
 }
 
-.top-grid div div div, .bottom-grid div div div {
+.top-grid div div div,
+.bottom-grid div div div {
   text-align: right;
   color: rgb(102, 102, 102);
   font-size: 10px;
@@ -475,7 +462,8 @@ h1 {
   color: black;
 }
 
-.grid-image-title:hover, .most-popular div p:hover {
+.grid-image-title:hover,
+.most-popular div p:hover {
   color: rgb(102, 102, 102)
 }
 
