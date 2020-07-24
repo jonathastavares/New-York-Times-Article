@@ -1,12 +1,12 @@
 @media (min-width: 800px) {
-  
+
 }
 
 body {
   background-color: white;
   margin: 0;
   height: 100%;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times,serif;
 }
 
 .container {
@@ -46,8 +46,8 @@ h1 {
 }
 
 .left-logos a {
-    color: black;
-    margin-right: 30px;
+  color: black;
+  margin-right: 30px;
 }
 
 .main-logo {
@@ -114,29 +114,6 @@ h1 {
   text-decoration: none;
 }
 
-.image-container {
-  margin-bottom: 30px;
-}
-
-.image-container img {
-  width: 1200px;
-  height: auto;
-}
-
-.image-container div {
-  width: 80%;
-}
-
-.image-container div p {
-  color: #666;
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  text-align: left;
-}
-
 .text-box {
   width: 50%;
 }
@@ -155,6 +132,31 @@ h1 {
   margin-inline-end: 0px;
   color: #333;
 }
+
+.image-container {
+  margin-bottom: 30px;
+}
+
+.image-container img {
+  width: 1200px;
+  height: auto;
+}
+
+.image-container div {
+  width: 80%;
+}
+
+.image-container div p {
+  color: #666;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  text-align: left;
+}
+
+
 
 .data-icons {
   display: flex;
@@ -211,6 +213,18 @@ h1 {
   line-height: 5px;
 }
 
+.img-text div a {
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  font-weight: 500;
+  padding-bottom: 0px;
+  border-bottom: 0px;
+  margin-left: 5px;
+  align-self: center;
+}
+
 .subscribe span p a {
   text-decoration: none;
   color: rgb(50, 104, 145);
@@ -251,20 +265,12 @@ h1 {
   height: 70px;
 }
 
-.img-text div a {
-  color: rgb(51, 51, 51);
-  font-size: 14px;
-  line-height: 17px;
-  text-decoration: none;
-  font-weight: 500;
-  padding-bottom: 0px;
-  border-bottom: none;
-  margin-left: 5px;
-  align-self: center;
-  text-decoration: none;
-}
-
-.img-text div a:hover, .column-grid li p a:hover, .ul-text-1 li p a:hover, .ul-text-2 li p a:hover, .ul-text-3 li p a:hover, .corporight p a:hover {
+.img-text div a:hover,
+.corporight p a:hover,
+.column-grid li p a:hover,
+.ul-text-1 li p a:hover,
+.ul-text-2 li p a:hover,
+.ul-text-3 li p a:hover {
   text-decoration: underline;
 }
 
@@ -273,7 +279,7 @@ h1 {
   width: 950px;
 }
 
-.text-image-tittle h3{
+.text-image-tittle h3 {
   font-size: 1.20rem;
   line-height: 10px;
   font-weight: 600;
@@ -456,7 +462,7 @@ h1 {
   height: auto;
 }
 
-.top-grid div div figcaption, .bottom-grid div div figcaption {
+.top-grid div div div, .bottom-grid div div div {
   text-align: right;
   color: rgb(102, 102, 102);
   font-size: 10px;
@@ -506,6 +512,10 @@ h1 {
 .most-popular div p {
   color: black;
 }
+
+/* End of Bottom Section */
+
+/* Footer Section */
 
 .footer-section {
   width: 1200px;
@@ -621,7 +631,7 @@ h1 {
   cursor: pointer;
 }
 
-/* End of Bottom Section */
+/* End of Footer Section */
 
 /* Footer Navbar Section */
 
