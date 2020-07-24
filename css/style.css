@@ -240,7 +240,7 @@ h1 {
   line-height: 17px;
   text-decoration: none;
   font-weight: 500;
-  padding-bottom: none;
+  padding-bottom: 0;
   border-bottom: none;
   margin-left: 5px;
   align-self: center;
@@ -250,6 +250,11 @@ h1 {
   font-size: 16px;
   text-decoration: none;
   color: whitesmoke;
+}
+
+.main-section-footer-text p a {
+  color: rgb(102, 102, 102);
+  text-decoration: underline;
 }
 
 .subscribe span p a {
@@ -269,7 +274,7 @@ h1 {
 .aside h2 {
   color: black;
   font-weight: 700;
-  margin-top: none;
+  margin-top: 0;
   margin-bottom: 15px;
   padding-bottom: 12px;
   font-size: 14px;
@@ -301,13 +306,9 @@ h1 {
   height: 70px;
 }
 
-.main-section-footer-text p a:hover {
-  text-decoration: none;
-}
-
 .column-grid li p a {
   font-size: 14px;
-  text-decoration: none;  
+  text-decoration: none;
   color: rgb(0, 0, 0);
 }
 
@@ -315,6 +316,10 @@ h1 {
   font-size: 12px;
   text-size-adjust: 100%;
   color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.main-section-footer-text p a:hover {
   text-decoration: none;
 }
 
@@ -436,11 +441,6 @@ h1 {
 
 .main-section-footer-text {
   margin-bottom: 30px;
-}
-
-.main-section-footer-text p a {
-  color: rgb(102, 102, 102);
-  text-decoration: underline;
 }
 
 .comment-button {
