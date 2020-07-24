@@ -80,6 +80,10 @@ h1 {
   font-size: 10.5px;
 }
 
+.right-buttons button:hover {
+  background-color: rgb(50, 104, 145);
+}
+
 /* End of Navbar Section */
 
 /* Main Page Section */
@@ -99,6 +103,15 @@ h1 {
 
 .main-tittle h1 {
   text-align: left;
+}
+
+.article-author {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.article-author:hover {
+  text-decoration: none;
 }
 
 .image-container {
@@ -164,6 +177,12 @@ h1 {
   border-radius: 50%;
   border: 0;
   margin-right: 10px;
+  cursor: pointer;
+}
+
+.social-media-buttons:hover {
+  background-color: white;
+  border: 1px whitesmoke solid;
 }
 
 .suscribe {
@@ -242,6 +261,11 @@ h1 {
   border-bottom: none;
   margin-left: 5px;
   align-self: center;
+  text-decoration: none;
+}
+
+.img-text div a:hover, .column-grid li p a:hover, .ul-text-1 li p a:hover, .ul-text-2 li p a:hover, .ul-text-3 li p a:hover, .corporight p a:hover {
+  text-decoration: underline;
 }
 
 .text-image-container {
@@ -287,6 +311,7 @@ h1 {
   line-height: 15px;
   font-weight: 300;
   color: #000000;
+  font-family: nyt-franklin,arial,helvetica,sans-serif;
 }
 
 .grid-second-row {
@@ -297,6 +322,7 @@ h1 {
   line-height: 15px;
   font-weight: 300;
   color: #000000;
+  font-family: nyt-franklin,arial,helvetica,sans-serif;
 }
 
 .grid-line-border-bottom {
@@ -368,6 +394,11 @@ h1 {
 
 .main-section-footer-text p a {
   color: rgb(102, 102, 102);
+  text-decoration: underline;
+}
+
+.main-section-footer-text p a:hover {
+  text-decoration: none;
 }
 
 .comment-button {
@@ -413,6 +444,7 @@ h1 {
   margin-right: 10px;
   grid-row-gap: 50px;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 
 .top-grid div, .bottom-grid div {
@@ -434,6 +466,11 @@ h1 {
   font-size: 1.125rem;
   margin-top: 8px;
   margin-bottom: 5px;
+  color: black;
+}
+
+.grid-image-title:hover, .most-popular div p:hover {
+  color: rgb(102, 102, 102)
 }
 
 .grid-image-date {
@@ -452,16 +489,22 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .most-popular {
   display: block;
   border-top: 1px black solid;
   width: 29%;
+  cursor: pointer;
 }
 
 .most-popular div {
   border-top: 1px solid rgb(204, 204, 204);
+}
+
+.most-popular div p {
+  color: black;
 }
 
 .footer-section {
@@ -503,18 +546,18 @@ h1 {
   width: fit-content;
   width: 1190px;
 }
- 
-.links-grid div p a {
-  font-size: 14px;
-  text-decoration: none;  
-  color: rgb(0, 0, 0);
-}
 
 .column-grid {
   list-style: none;
   line-height: 8px;
   padding-right: 0;
   padding-left: 0;
+}
+
+.column-grid li p a {
+  font-size: 14px;
+  text-decoration: none;  
+  color: rgb(0, 0, 0);
 }
 
 .last-ul-column {
@@ -540,6 +583,8 @@ h1 {
 .ul-text-1 li p a {
   font-size: 12px;
   text-size-adjust: 100%;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 .ul-text-2 {
@@ -550,6 +595,8 @@ h1 {
 .ul-text-2 li p a, .ul-text-3 li p a {
   font-size: 11.5px;
   text-size-adjust: 100%;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 .ul-text-3 {
@@ -573,6 +620,10 @@ h1 {
   text-decoration: none;
   cursor: pointer;
 }
+
+/* End of Bottom Section */
+
+/* Footer Navbar Section */
 
 .footer-navbar {
   width: 100%;
@@ -612,4 +663,7 @@ h1 {
   font-size: 16px;
   text-decoration: none;
   color: whitesmoke;
+  cursor: pointer;
 }
+
+/* End of Footer Navbar Section */ 
