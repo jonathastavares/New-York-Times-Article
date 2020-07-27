@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/jonathastavares/New-York-Times-Article/8ca1741a8bc2ff8cf4c5dfc516c02a87598086cd/index.html)
+[Live Demo Link](https://raw.githack.com/jonathastavares/New-York-Times-Article/nyt-article-page/index.html)
 
 ## Authors
 
