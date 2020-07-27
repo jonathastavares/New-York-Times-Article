@@ -169,6 +169,16 @@ h1 {
   cursor: pointer;
 }
 
+.subscribe p {
+  text-align: center;
+  margin: 5px;
+}
+
+.subscribe div p a {
+  color: rgb(50, 104, 145);
+  text-decoration: none;
+}
+
 .image-container div p {
   color: #666;
   font-size: 0.9375rem;
@@ -211,11 +221,6 @@ h1 {
 .suscribe {
   align-self: center;
   color: #333;
-}
-
-.subscribe div p a {
-  color: rgb(50, 104, 145);
-  text-decoration: none;
 }
 
 .subscribe-container-top-border {
@@ -432,11 +437,6 @@ h1 {
 
 .telescope-image-container div {
   max-width: 90%;
-}
-
-.subscribe p {
-  text-align: center;
-  margin: 5px;
 }
 
 .telescope-image-container div p {
