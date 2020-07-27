@@ -169,14 +169,39 @@ h1 {
   cursor: pointer;
 }
 
-.subscribe p {
+.subscribe div p {
   text-align: center;
   margin: 5px;
+  font-size: 16px;
+}
+
+.img-text div a {
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  font-weight: 500;
+  padding-bottom: 0;
+  border-bottom: none;
+  margin-left: 5px;
+  align-self: center;
+}
+
+.bottom-navbar-text p a {
+  font-size: 16px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.main-section-footer-text p a {
+  color: rgb(102, 102, 102);
+  text-decoration: underline;
 }
 
 .subscribe div p a {
   color: rgb(50, 104, 145);
   text-decoration: none;
+  font-size: 16px;
 }
 
 .image-container div p {
@@ -233,45 +258,6 @@ h1 {
   border: 1px solid rgb(204, 204, 204);
   width: 72px;
   margin: 18px auto 0;
-}
-
-.subscribe span {
-  text-align: center;
-}
-
-.subscribe span p {
-  font-size: 16px;
-  line-height: 5px;
-}
-
-.img-text div a {
-  color: rgb(51, 51, 51);
-  font-size: 14px;
-  line-height: 17px;
-  text-decoration: none;
-  font-weight: 500;
-  padding-bottom: 0;
-  border-bottom: none;
-  margin-left: 5px;
-  align-self: center;
-}
-
-.bottom-navbar-text p a {
-  font-size: 16px;
-  text-decoration: none;
-  color: whitesmoke;
-}
-
-.main-section-footer-text p a {
-  color: rgb(102, 102, 102);
-  text-decoration: underline;
-}
-
-.subscribe span p a {
-  text-decoration: none;
-  color: rgb(50, 104, 145);
-  font-size: 16px;
-  line-height: 5px;
 }
 
 .aside {
