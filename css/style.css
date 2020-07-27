@@ -213,11 +213,6 @@ h1 {
   color: #333;
 }
 
-.subscribe p {
-  text-align: center;
-  margin: 5px;
-}
-
 .subscribe div p a {
   color: rgb(50, 104, 145);
   text-decoration: none;
@@ -437,6 +432,11 @@ h1 {
 
 .telescope-image-container div {
   max-width: 90%;
+}
+
+.subscribe p {
+  text-align: center;
+  margin: 5px;
 }
 
 .telescope-image-container div p {
