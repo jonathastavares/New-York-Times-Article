@@ -209,8 +209,18 @@ h1 {
 }
 
 .suscribe {
-  text-align: center;
+  align-self: center;
   color: #333;
+}
+
+.subscribe p {
+  text-align: center;
+  margin: 5px;
+}
+
+.subscribe div p a {
+  color: rgb(50, 104, 145);
+  text-decoration: none;
 }
 
 .subscribe-container-top-border {
