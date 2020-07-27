@@ -128,6 +128,12 @@ h1 {
   cursor: pointer;
 }
 
+.top-grid a,
+.bottom-grid a {
+  width: 94.5%;
+  text-decoration: none;
+}
+
 .text-box p a {
   color: #326891;
 }
@@ -482,12 +488,6 @@ h1 {
   margin-right: 10px;
   grid-row-gap: 50px;
   margin-bottom: 50px;
-}
-
-.top-grid a,
-.bottom-grid a {
-  width: 94.5%;
-  text-decoration: none;
 }
 
 .top-grid a div img,
