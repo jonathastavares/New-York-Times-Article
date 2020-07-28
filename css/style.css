@@ -8,7 +8,6 @@ body {
 .container {
   margin-top: 60px;
   height: 100%;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -19,11 +18,14 @@ h1 {
   text-align: center;
 }
 
+.flex {
+  display: flex;
+}
+
 /* Navbar Section */
 
 .navbar {
   position: fixed;
-  display: flex;
   justify-content: space-between;
   background-color: white;
   width: 100%;
@@ -35,9 +37,7 @@ h1 {
 }
 
 .left-logos {
-  display: flex;
   align-items: center;
-  margin-left: 8%;
 }
 
 .left-logos button {
@@ -47,8 +47,10 @@ h1 {
   cursor: pointer;
 }
 
-.main-logo {
-  margin-left: 96.594px;
+.left-logos a {
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
 }
 
 .main-logo img {
@@ -58,8 +60,6 @@ h1 {
 }
 
 .right-buttons {
-  display: flex;
-  margin-right: 8%;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -86,7 +86,6 @@ h1 {
 
 .main-section {
   width: 62.5%;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -134,7 +133,7 @@ h1 {
   text-decoration: none;
 }
 
-.text-box p a {
+.text-box a {
   color: #326891;
 }
 
@@ -175,13 +174,13 @@ h1 {
   cursor: pointer;
 }
 
-.subscribe div p {
+.subscribe p {
   text-align: center;
   margin: 5px;
   font-size: 16px;
 }
 
-.img-text div a {
+.img-text a {
   color: rgb(51, 51, 51);
   font-size: 14px;
   line-height: 17px;
@@ -193,24 +192,24 @@ h1 {
   align-self: center;
 }
 
-.bottom-navbar-text p a {
+.bottom-navbar-text a {
   font-size: 16px;
   text-decoration: none;
   color: whitesmoke;
 }
 
-.main-section-footer-text p a {
+.main-section-footer-text a {
   color: rgb(102, 102, 102);
   text-decoration: underline;
 }
 
-.subscribe div p a {
+.subscribe a {
   color: rgb(50, 104, 145);
   text-decoration: none;
   font-size: 16px;
 }
 
-.image-container div p {
+.image-container p {
   color: #666;
   font-size: 0.9375rem;
   line-height: 1.25rem;
@@ -221,11 +220,10 @@ h1 {
 }
 
 .data-icons {
-  display: flex;
   justify-content: space-between;
 }
 
-.data-icons span p {
+.data-icons p {
   font-weight: 500;
   color: #333;
   font-size: 0.8125rem;
@@ -290,7 +288,6 @@ h1 {
 }
 
 .img-text div {
-  display: flex;
   margin-bottom: 20px;
 }
 
@@ -303,42 +300,42 @@ h1 {
   margin-right: 60px;
 }
 
-.img-text div img {
+.img-text img {
   width: 70px;
   height: 70px;
 }
 
-.column-grid li p a {
+.column-grid a {
   font-size: 14px;
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
 
-.ul-text-1 li p a {
+.ul-text-1 a {
   font-size: 12px;
   text-size-adjust: 100%;
   color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
-.ul-text-2 li p a,
-.ul-text-3 li p a {
+.ul-text-2 a,
+.ul-text-3 a {
   font-size: 11.5px;
   text-size-adjust: 100%;
   color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
-.main-section-footer-text p a:hover {
+.main-section-footer-text a:hover {
   text-decoration: none;
 }
 
-.img-text div a:hover,
-.corporight p a:hover,
-.column-grid li p a:hover,
-.ul-text-1 li p a:hover,
-.ul-text-2 li p a:hover,
-.ul-text-3 li p a:hover {
+.img-text a:hover,
+.corporight a:hover,
+.column-grid a:hover,
+.ul-text-1 a:hover,
+.ul-text-2 a:hover,
+.ul-text-3 a:hover {
   text-decoration: underline;
 }
 
@@ -410,7 +407,7 @@ h1 {
   max-width: 85%;
 }
 
-.video-container div p {
+.video-container p {
   color: #666;
   font-size: 0.9375rem;
   line-height: 1.25rem;
@@ -431,7 +428,7 @@ h1 {
   max-width: 90%;
 }
 
-.telescope-image-container div p {
+.telescope-image-container p {
   color: #666;
   font-size: 0.9375rem;
   line-height: 1.25rem;
@@ -462,7 +459,6 @@ h1 {
 
 .bottom-section {
   width: 62.5%;
-  display: flex;
   justify-content: center;
   margin-top: 50px;
 }
@@ -485,24 +481,26 @@ h1 {
   margin-bottom: 50px;
 }
 
-.top-grid a div img,
-.bottom-grid a div img {
+.top-grid img,
+.bottom-grid img {
   width: 100%;
   height: auto;
 }
 
 .most-popular div {
   border-top: 1px solid rgb(204, 204, 204);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 15px;
 }
 
 .bottom-navbar div {
   width: 60%;
-  display: flex;
   justify-content: space-between;
 }
 
-.top-grid a div div,
-.bottom-grid a div div {
+.top-grid div,
+.bottom-grid div {
   text-align: right;
   color: rgb(102, 102, 102);
   font-size: 10px;
@@ -515,12 +513,14 @@ h1 {
   color: black;
 }
 
-.most-popular div p {
+.most-popular a {
   color: black;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .grid-image-title:hover,
-.most-popular div p:hover {
+.most-popular a:hover {
   color: rgb(102, 102, 102);
 }
 
@@ -556,7 +556,6 @@ h1 {
 .footer-section {
   width: 62.5%;
   height: auto;
-  display: flex;
   justify-content: center;
   margin-top: 60px;
   border-top: 2px solid #e2e2e2;
@@ -564,7 +563,6 @@ h1 {
 }
 
 .footer-tittle {
-  display: flex;
   justify-content: space-between;
   width: 1190px;
   height: 35px;
@@ -606,7 +604,7 @@ h1 {
   line-height: 8px;
 }
 
-.last-ul-column ul li p a img {
+.last-ul-column img {
   height: 16px;
   width: 22px;
 }
@@ -621,7 +619,6 @@ h1 {
 }
 
 .corporight {
-  display: flex;
   justify-content: space-between;
   margin-bottom: 80px;
   border-top: 2px solid #e2e2e2;
@@ -643,7 +640,6 @@ h1 {
   width: 100%;
   height: 50px;
   background-color: rgb(51, 51, 51);
-  display: flex;
   justify-content: flex-end;
 }
 
