@@ -85,7 +85,7 @@ h1 {
 /* Main Page Section */
 
 .main-section {
-  width: 1200px;
+  width: 62.5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -154,7 +154,7 @@ h1 {
 }
 
 .image-container img {
-  width: 1200px;
+  width: 100%;
   height: auto;
 }
 
@@ -269,8 +269,8 @@ h1 {
 .aside {
   position: absolute;
   top: 2000px;
-  right: 15%;
   width: 230px;
+  right: 10%;
 }
 
 .aside h2 {
@@ -456,17 +456,12 @@ h1 {
   padding: 12px 100px;
 }
 
-.icons-bttns {
-  display: flex;
-  justify-content: space-between;
-}
-
 /* End of Main Section */
 
 /* Bottom Section */
 
 .bottom-section {
-  width: 1200px;
+  width: 62.5%;
   display: flex;
   justify-content: center;
   margin-top: 50px;
@@ -559,7 +554,7 @@ h1 {
 /* Footer Section */
 
 .footer-section {
-  width: 1200px;
+  width: 62.5%;
   height: auto;
   display: flex;
   justify-content: center;
