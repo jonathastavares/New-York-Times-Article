@@ -25,7 +25,7 @@
 - Twitter: [@jhstavares](https://twitter.com/jhstavares)
 - Linkedin: [linkedin](https://www.linkedin.com/in/jonathas-tavares-24b8bba3/)
 
-👤 **Bbosa Muhamood**
+👤 **Jenny Cardenas**
 
 - Github: [@janis-jenny](https://github.com/janis-jenny)
 - Twitter: [@janis_jenny](https://twitter.com/janis_jenny)
